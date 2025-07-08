@@ -31,11 +31,12 @@ public class    Main {
         return "Product Updated";
     }
     public static String removeProduct(HashMap<String, Integer> products, String productName){
-        products.remove(productName);
-        if(products.get(productName)!= null){
+
+        if(!products.containsKey(productName)){
             System.out.print("Product not removed");
             return "ERR: Cant remove product";
         }
+        products.remove(productName);
         System.out.println("Product Removed");
         return "Product removed";
     }
