@@ -1,5 +1,6 @@
-# Lab 1: Part 1 of 2 Grocery Store Inventory System
+# Grocery Store Inventory System
 
+` added test cases`
 ### Name: Jerome Yang
 ## 1. View Inventory
 ![](ss2.png)
@@ -19,6 +20,5 @@
 ![](ss4.png)
 
 ## 7. Unit Test Output
-
-![](test_cases.png)
+![test_cases.png](test_cases.png)
 
